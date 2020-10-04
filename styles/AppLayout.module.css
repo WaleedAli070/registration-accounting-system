@@ -1,0 +1,14 @@
+.siteLayoutContent {
+  background: #fff;
+}
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.appTitle {
+  color: #ddd;
+  font-family: system-ui;
+  font-size: 18px;
+  margin: auto;
+}
