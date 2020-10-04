@@ -7,6 +7,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import Link from 'next/link';
+import ActiveBreadcrumb from '../components/ActiveBreadcrumb'
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -54,10 +55,7 @@ export default function AppLayout({ children }) {
             <h1 className={styles.appTitle}>Registration and Accounting System</h1>
           </Header>
           <Content style={{ margin: '0 16px' }}>
-            <Breadcrumb style={{ margin: '16px 0' }}>
-              <Breadcrumb.Item>Courses</Breadcrumb.Item>
-              {/* <Breadcrumb.Item>Bill</Breadcrumb.Item> */}
-            </Breadcrumb>
+            <ActiveBreadcrumb />
             <div className={styles.siteLayoutContent} style={{ padding: 24, minHeight: 360 }}>
               {children}
             </div>
