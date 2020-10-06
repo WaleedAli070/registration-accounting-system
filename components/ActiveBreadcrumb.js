@@ -3,7 +3,7 @@ import { Breadcrumb } from 'antd'
 
 function ActiveBreadcrumb() {
   const router = useRouter()
-  const routes = router.pathname.split('/').slice(1)
+  const routes = router.asPath.split('/').slice(1)
   return (
     <Breadcrumb style={{ margin: '16px 0' }}>
       {
