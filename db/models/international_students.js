@@ -10,9 +10,6 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      international_students.hasOne(models.international_students_docs)
-      international_students.hasOne(models.international_students_exams)
-      international_students.hasOne(models.international_students_payments)
     }
   };
   international_students.init({

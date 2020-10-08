@@ -10,9 +10,6 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      local_courses.hasOne(models.local_courses_students)
-      local_courses.hasOne(models.local_courses_payments)
-      local_courses.hasOne(models.local_courses_docs)
     }
   };
   local_courses.init({
