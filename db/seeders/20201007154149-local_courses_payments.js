@@ -11,7 +11,7 @@ module.exports = {
         note: 'some note here',
         createdAt: new Date(),
         updatedAt: new Date(),
-        course_id: 1
+        student_id: 1
       },
       {
         payment_type: 'Public',
@@ -21,7 +21,7 @@ module.exports = {
         note: 'some more note here',
         createdAt: new Date(),
         updatedAt: new Date(),
-        course_id: 2
+        student_id: 2
       }
     ])
   },
